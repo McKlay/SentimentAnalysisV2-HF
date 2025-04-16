@@ -1,6 +1,6 @@
 gradio>=4.15.0
 transformers
-torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.1
 pandas
 matplotlib
 safetensors
