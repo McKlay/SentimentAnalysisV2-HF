@@ -1,9 +1,8 @@
 gradio>=4.15.0
 transformers
-torch
+torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pandas
 matplotlib
 safetensors
 huggingface_hub
 scikit-learn
-
