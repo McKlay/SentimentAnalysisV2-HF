@@ -1,6 +1,6 @@
 gradio>=4.15.0
-transformers==4.51.0
-torch==2.2.2
+transformers==4.35.2
+torch==2.0.1
 pandas
 matplotlib
 safetensors
