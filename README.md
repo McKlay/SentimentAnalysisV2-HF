@@ -9,45 +9,51 @@ app_file: app.py
 pinned: false
 ---
 
+[![HF Spaces](https://img.shields.io/badge/🤗%20HuggingFace-Space-blue?logo=huggingface&style=flat-square)](https://huggingface.co/spaces/McKlay/SentimentAnalysisV2-HF)
+[![Gradio](https://img.shields.io/badge/Built%20with-Gradio-orange?logo=gradio&style=flat-square)](https://www.gradio.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # 🧠 Universal Comment Sentiment Analyzer
 
-A fast and user-friendly sentiment analysis tool powered by a fine-tuned BERT model, capable of classifying comments into **Positive**, **Negative**, or **Neutral** sentiments.
+This interactive web app performs sentiment analysis on any comment using a fine-tuned BERT model. It predicts whether a comment is **Positive**, **Neutral**, or **Negative**, and visualizes the sentiment distribution in real time.
 
-## 🚀 Features
+### ✨ Features
 
-- 🔍 Real-time sentiment analysis
-- 📈 Live sentiment distribution pie chart
-- 📜 Accordion-style prediction history
-- 📥 Export results as CSV
-- 🎨 Responsive and styled with custom CSS
+- 🔍 Instant sentiment prediction with confidence scores
+- 📈 Pie chart visualization of sentiment trends
+- 📜 Scrollable prediction history with collapsible view
+- 💾 Exportable CSV of all predictions
+- 🎨 Custom Gradio theme with dark mode aesthetics
 
-## 🧠 Model Info
+### 🧠 Model Details
 
-- **Base model:** `bert-base-uncased`
-- **Fine-tuned on:** YouTube comments and open-domain feedback
-- **Hosted on Hugging Face:** [`McKlay/sentiment-analysis-v2`](https://huggingface.co/McKlay/sentiment-analysis-v2)
+- Base: [`bert-base-uncased`](https://huggingface.co/bert-base-uncased)
+- Fine-tuned on YouTube and general domain comments
+- Label classes: `positive`, `neutral`, `negative`
+- Hosted model: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/McKlay/sentiment-analysis-v2)
 
-## 🛠️ How It Works
+### 📦 Technology Stack
 
-- Loads the tokenizer, model weights, config, and label encoder directly from Hugging Face Model Hub
-- Uses Gradio for a sleek web UI
-- Classifies single input comments and provides a confidence score
+- 🤗 `transformers`
+- 🔥 `torch`
+- 🎨 `gradio`
+- 📊 `pandas`, `matplotlib`
 
-## 📊 Sample Outputs
+---
 
-| Text | Sentiment | Confidence |
-|------|-----------|------------|
-| "Amazing explanation!" | Positive | 98.45% |
-| "This topic is confusing..." | Neutral | 87.13% |
-| "Worst tutorial ever." | Negative | 92.09% |
+### 📸 Thumbnail Preview
 
-## 🧪 Try it now
-
-Type any comment in the text box and hit **Analyze Sentiment** to see the result and visual breakdown!
+![App thumbnail](thumbnail.png)
 
 ---
 
 ### 👨‍💻 Author
 
-Clay Mark Sarte  
-[Hugging Face Profile](https://huggingface.co/McKlay)
+**Clay Mark Sarte**  
+[Hugging Face](https://huggingface.co/McKlay) • [GitHub](https://github.com/McKlay) • [LinkedIn](https://linkedin.com)
+
+---
+
+### 📝 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
