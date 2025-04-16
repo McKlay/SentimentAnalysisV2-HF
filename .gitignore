@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# VSCode & OS junk
+.vscode/
+.DS_Store
+
+# Environment files
+.env
+.env.*
+
+# Model folders (only ignore unnecessary subfolders)
+model/__results__files/
+model/results.zip
+model/sentiment_model/
+model/*__huggingface_repo__*
+
+# Don't ignore actual model files that are used!
+# Keep: model.safetensors, tokenizer.json, config.json, etc.
