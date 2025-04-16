@@ -1,4 +1,15 @@
-# 😊 Sentiment Analysis Tool
+---
+title: 😊 Sentiment Analysis Tool
+emoji: 🧠
+colorFrom: indigo
+colorTo: rose
+sdk: gradio
+sdk_version: "4.15.0"
+app_file: app.py
+pinned: false
+---
+
+# 🧠 Universal Comment Sentiment Analyzer
 
 A fast and user-friendly sentiment analysis tool powered by a fine-tuned BERT model, capable of classifying comments into **Positive**, **Negative**, or **Neutral** sentiments.
 
