@@ -1,62 +1,42 @@
----
-title: Sentiment Analysis V2 (Gradio)
-emoji: 🧠
-colorFrom: gray
-colorTo: purple
-sdk: gradio
-sdk_version: "4.27.0"
-app_file: app.py
-pinned: true
----
+# 😊 Sentiment Analysis Tool
 
-# 🧠 Sentiment Analysis V2 (Gradio Version)
+A fast and user-friendly sentiment analysis tool powered by a fine-tuned BERT model, capable of classifying comments into **Positive**, **Negative**, or **Neutral** sentiments.
 
-A lightweight sentiment classification web app using a fine-tuned **BERT** model.
+## 🚀 Features
 
-> Hosted entirely on [🤗 Hugging Face Spaces](https://huggingface.co/spaces/McKlay/SentimentAnalysisV2-HF) using **Gradio** and **Transformers**.
+- 🔍 Real-time sentiment analysis
+- 📈 Live sentiment distribution pie chart
+- 📜 Accordion-style prediction history
+- 📥 Export results as CSV
+- 🎨 Responsive and styled with custom CSS
 
----
+## 🧠 Model Info
 
-## ⚙️ Tech Stack
-- 🤗 **Transformers** for BERT-based text classification
-- 🔥 **PyTorch** for model inference
-- 🎨 **Gradio** for building the web interface
-- 🚀 **Hugging Face Spaces** for free app hosting
+- **Base model:** `bert-base-uncased`
+- **Fine-tuned on:** YouTube comments and open-domain feedback
+- **Hosted on Hugging Face:** [`McKlay/sentiment-analysis-v2`](https://huggingface.co/McKlay/sentiment-analysis-v2)
 
----
+## 🛠️ How It Works
 
-## 🧪 Try It Out
-Paste a sentence into the textbox and get real-time sentiment probabilities (positive/negative) with confidence levels.
+- Loads the tokenizer, model weights, config, and label encoder directly from Hugging Face Model Hub
+- Uses Gradio for a sleek web UI
+- Classifies single input comments and provides a confidence score
 
----
+## 📊 Sample Outputs
 
-## 📁 File Structure
-SentimentAnalysisV2-HF/ 
-├── app.py # Main Gradio app 
-├── model/ # empty, the model is located in model hub McKlay/sentiment-analysis-v2 
-├── requirements.txt # Dependency file 
-├── .gitignore └── README.md
+| Text | Sentiment | Confidence |
+|------|-----------|------------|
+| "Amazing explanation!" | Positive | 98.45% |
+| "This topic is confusing..." | Neutral | 87.13% |
+| "Worst tutorial ever." | Negative | 92.09% |
+
+## 🧪 Try it now
+
+Type any comment in the text box and hit **Analyze Sentiment** to see the result and visual breakdown!
 
 ---
 
-## ✅ How It Works
+### 👨‍💻 Author
 
-1. Loads the tokenizer and model from the `model/` folder.
-2. Processes input text and runs inference using BERT.
-3. Returns the confidence scores for each sentiment label.
-4. All of this happens **live** in your browser via Gradio!
-
----
-
-## ✨ Author
-
-**Clay Mark Sarte**  
-[GitHub: @McKlay](https://github.com/McKlay)  
-Passionate about AI, ML, and building useful tools with minimal stack.
-
----
-
-## 📜 License
-
-MIT License — free to use and modify.
-
+Clay Mark Sarte  
+[Hugging Face Profile](https://huggingface.co/McKlay)
