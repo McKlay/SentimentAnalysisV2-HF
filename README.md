@@ -1,8 +1,8 @@
 ---
 title: 😊 Sentiment Analysis Tool
 emoji: 🧠
-colorFrom: rose
-colorTo: rose
+colorFrom: indigo
+colorTo: blue
 sdk: gradio
 sdk_version: "4.15.0"
 app_file: app.py
