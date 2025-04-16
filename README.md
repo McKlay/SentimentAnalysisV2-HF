@@ -1,3 +1,14 @@
+---
+title: Sentiment Analysis V2 (Gradio)
+emoji: 🧠
+colorFrom: gray
+colorTo: purple
+sdk: gradio
+sdk_version: "4.27.0"
+app_file: app.py
+pinned: true
+---
+
 # 🧠 Sentiment Analysis V2 (Gradio Version)
 
 A lightweight sentiment classification web app using a fine-tuned **BERT** model.
