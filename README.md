@@ -13,31 +13,31 @@ pinned: false
 [![Gradio](https://img.shields.io/badge/Built%20with-Gradio-orange?logo=gradio&style=flat-square)](https://www.gradio.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# 🧠 Universal Comment Sentiment Analyzer
+# Sentiment Analysis Tool
 
 This interactive web app performs sentiment analysis on any comment using a fine-tuned BERT model. It predicts whether a comment is **Positive**, **Neutral**, or **Negative**, and visualizes the sentiment distribution in real time.
 
-### ✨ Features
+### Features
 
-- 🔍 Instant sentiment prediction with confidence scores
-- 📈 Pie chart visualization of sentiment trends
-- 📜 Scrollable prediction history with collapsible view
-- 💾 Exportable CSV of all predictions
-- 🎨 Custom Gradio theme with dark mode aesthetics
+- Instant sentiment prediction with confidence scores
+- Pie chart visualization of sentiment trends
+- Scrollable prediction history with collapsible view
+- Exportable CSV of all predictions
+- Custom Gradio theme with dark mode aesthetics
 
-### 🧠 Model Details
+### Model Details
 
 - Base: [`bert-base-uncased`](https://huggingface.co/bert-base-uncased)
 - Fine-tuned on YouTube and general domain comments
 - Label classes: `positive`, `neutral`, `negative`
-- Hosted model: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/McKlay/sentiment-analysis-v2)
+- Hosted model: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/spaces/McKlay/SentimentAnalysisV2-HF)
 
-### 📦 Technology Stack
+### Technology Stack
 
-- 🤗 `transformers`
-- 🔥 `torch`
-- 🎨 `gradio`
-- 📊 `pandas`, `matplotlib`
+- `transformers`
+- `torch`
+- `gradio`
+- `pandas`, `matplotlib`
 
 ---
 
