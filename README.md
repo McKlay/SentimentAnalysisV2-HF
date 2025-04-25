@@ -33,7 +33,8 @@ This interactive web app performs sentiment analysis on any comment using a fine
 - Hosted model: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/McKlay/sentiment-analysis-v2/tree/main)
 
 ## Try it online!
-- Deployed on: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/spaces/McKlay/SentimentAnalysisV2-HF)
+- Deployed on Hugging Face Spaces: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/spaces/McKlay/SentimentAnalysisV2-HF)
+- Deployed on Vercel: [`McKlay/sentiment-analysis-v2`](https://sentiment-analysis-v2.vercel.app/)
 
 ## Technology Stack
 
