@@ -17,7 +17,7 @@ pinned: false
 
 This interactive web app performs sentiment analysis on any comment using a fine-tuned BERT model. It predicts whether a comment is **Positive**, **Neutral**, or **Negative**, and visualizes the sentiment distribution in real time.
 
-### Features
+## Features
 
 - Instant sentiment prediction with confidence scores
 - Pie chart visualization of sentiment trends
@@ -25,14 +25,17 @@ This interactive web app performs sentiment analysis on any comment using a fine
 - Exportable CSV of all predictions
 - Custom Gradio theme with dark mode aesthetics
 
-### Model Details
+## Model Details
 
 - Base: [`bert-base-uncased`](https://huggingface.co/bert-base-uncased)
 - Fine-tuned on YouTube and general domain comments
 - Label classes: `positive`, `neutral`, `negative`
-- Hosted model: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/spaces/McKlay/SentimentAnalysisV2-HF)
+- Hosted model: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/McKlay/sentiment-analysis-v2/tree/main)
 
-### Technology Stack
+## Try it online!
+- Deployed on: [`McKlay/sentiment-analysis-v2`](https://huggingface.co/spaces/McKlay/SentimentAnalysisV2-HF)
+
+## Technology Stack
 
 - `transformers`
 - `torch`
@@ -41,13 +44,7 @@ This interactive web app performs sentiment analysis on any comment using a fine
 
 ---
 
-### 📸 Thumbnail Preview
-
-![App thumbnail](thumbnail.png)
-
----
-
-### 👨‍💻 Author
+## 👨‍💻 Author
 
 **Clay Mark Sarte**  
 [Hugging Face](https://huggingface.co/McKlay) • [GitHub](https://github.com/McKlay) • [LinkedIn](https://linkedin.com)
